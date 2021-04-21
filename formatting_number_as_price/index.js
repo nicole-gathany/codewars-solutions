@@ -34,3 +34,5 @@ var numberToPrice = function (number) {
 };
 
 console.log(numberToPrice(-999));
+
+console.log(numberToPrice())
