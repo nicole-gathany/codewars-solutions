@@ -15,3 +15,12 @@ Your task is to return:
 
 true if developers from all of the following age groups have signed up: teens, twenties, thirties, forties, fifties, sixties, seventies, eighties, nineties, centenarian (at least 100 years young).
 false otherwise.
+
+# hotter than the sun
+ 
+Your job is simple, if (x) squared is more than 1000, return 'It's hotter than the sun!!', else, return 'Help yourself to a honeycomb Yorkie for the glovebox.'.
+
+X will be a valid integer number.
+X will be either a number or a string. Both are valid.
+
+This is a 8 kyu. Honestly too easy. I should at least do 7kyu even if I'm tired.
