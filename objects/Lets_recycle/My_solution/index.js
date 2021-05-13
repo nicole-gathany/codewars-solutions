@@ -22,6 +22,7 @@ function recycle(array) {
        if(array[i].material==="plastic"|| array[i].secondMaterial ==="plastic"){
         plastic.push(array[i].type)
       }
+      
     }
     return [paper, glass, organic, plastic]
   }
