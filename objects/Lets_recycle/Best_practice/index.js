@@ -7,3 +7,4 @@ const recycle = array =>
 
 //the solution is elegant. however, i would not use this solution because it maps the array twice and filters it in the same line, that sounds like it would loop 3xs which means that the time complexity would be O(n*n*n)
 //i'm going to count the number of calls using console.count()
+//was not able to figure out where to put the console.count()
