@@ -23,6 +23,5 @@ function reverseFizzBuzz(array) {
       result.push( fizzbuzz[0], buzz[0])
     }
     
-  
     return result;
   };
