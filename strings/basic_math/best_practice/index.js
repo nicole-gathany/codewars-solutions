@@ -1,6 +1,6 @@
-//there were a few best practices but i liked this one the best
-// i didn't know about eval before
 function calculate(str) {
-    return eval(str.split("plus").join("+").split("minus").join("-")).toString();
-  //MDN actually doesn't recommend using eval so will look and see if other solutions don't use it
+    const num = str.split('plus').join(' ').split('minus').join(' -').split(' ').reduce((a,i)=> a + +i, 0)
+  return [] + num
   }
+
+  //this solution doesn't use eval. I like it because it just makes the numbers being substracted negative numbers. I don't understand + +i
