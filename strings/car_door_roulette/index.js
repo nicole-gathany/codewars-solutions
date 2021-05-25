@@ -12,7 +12,7 @@ function carD(s, x){
     else if(s[1].includes("]")) return "Free Lambo on Right!";//if there's a '\' in s[0][x+0|1|2] (left in front of you) return 'Crash, Bang, Ouch!'.
     else if(s[0].substring(x, x+3).includes("\\")) return 'Crash, Bang, Ouch!';
     //if there's a '\' in s[1][x+0|1|2] (right in frong of you) return 'Right Smash!'
-    else if(s[1][x] === "\\" || s[1][x+1] === "\\" || s[1][x+2] === "\\") return 'Right Smash!';
+    else if(s[1].substring(x, x+2).includes("\\")) return 'Right Smash!';
     //if there's a '/' in s[0][x+0|1] (left in front of you) return 'Knocked Off, Dust Yourself Down.'
     else if(s[0].substring(x, x+2).includes("/"))  return 'Knocked Off, Dust Yourself Down.'; 
     //if there's a '/' in s[1][x+0|1] (right in front of you) return 'Dammit!'
