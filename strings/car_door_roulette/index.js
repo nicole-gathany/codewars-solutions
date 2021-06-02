@@ -6,7 +6,7 @@ function carD(s, x){
     //s[1] cars on the right
     //x is my position as a cyclistconsole.log()
     for(let i=0; i<s[0].length; i++){
-      if((s[0][i]==="\\"||s[0][i]==="/") && (s[1][i]==="\\"||s[1][i]==="/")){return "Super Smash!"}
+      if((s[0].charAt(i)==="\\"||s[0].charAt(i)==="/") && (s[1].charAt(i)==="\\"||s[1].charAt(i)==="/")){return "Super Smash!"}
   }
      if(s[0].includes("[")) return "Free Lambo on Left!";
     else if(s[1].includes("]")) return "Free Lambo on Right!";//if there's a '\' in s[0][x+0|1|2] (left in front of you) return 'Crash, Bang, Ouch!'.
