@@ -30,9 +30,14 @@ function append(listA, listB) {
       }
       if(count===3){
         listA.next.next.next = listB;
-      }
+        //I'm seeing a pattern
+        //if the solution looks ridiculous like this in brute force, there's a possibility that a recursive function could work
+        //and when i say "like this", i mean a bunch of if statements with  `.next` then `.next.next`
+        // i may need to get better at recursive
+    }
       return listA;
     } 
   }
+
 
   
