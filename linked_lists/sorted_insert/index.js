@@ -23,7 +23,17 @@ function Node(data) {
         //1 -> 5 -> 7 -> 8 -> null
     //example 3
     //console.log(head);
+
+    //the solution passed all the tests. however...
+    //I believe I can refactor all of this to be recursive 
+    //I was lucky because all linked lists in the tests were only a length of 3
+    //In its current state, this function would not insert data in a list longer than 3
+    //I think if it were recursive it could pass all tests even if the list was longer
+
     let insert = new Node(data);
+    let tracker = head;
+    let counter = 0; //putting all the variables in the same place.
+    
     console.log(insert);
     
     if(head===null) return insert; //head is an an empty list
@@ -35,8 +45,7 @@ function Node(data) {
       insert.next = head;
       return insert;
     }
-    let tracker = head;
-    let counter = 0; 
+    
     while(tracker!==null && tracker.data<data){
       tracker = tracker.next;
       counter++;
