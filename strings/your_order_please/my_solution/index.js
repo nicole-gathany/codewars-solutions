@@ -6,7 +6,7 @@ function order(words){
   let obj = {};
   
   
-  numbers.forEach(n => obj[n] = wordsArr.filter(el => el.includes(n)).join("")); //has O**2 notation
+  numbers.forEach(n => obj[n] = wordsArr.filter(el => el.includes(n)).join("")); //has O**2 notation (but not so bad because the longest string would be is 9 words)
   
   return Object.values(obj).join(" ");
  
