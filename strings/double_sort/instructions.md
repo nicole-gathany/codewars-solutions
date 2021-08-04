@@ -6,4 +6,4 @@ Your job is to return a single array that has first the numbers sorted in ascend
 
 Note that numbers written as strings are strings and must be sorted with the other strings.
 
-FUNDAMENTALSSTRINGSNUMBERSARRAYS
+## FUNDAMENTALS STRINGS NUMBERS ARRAYS
