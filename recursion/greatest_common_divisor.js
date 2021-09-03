@@ -1,3 +1,4 @@
+//given two integers, return the greatest common denominator
 function mygcd(x,y){
     return y == 0 ? x : mygcd(y, x % y)
   }
